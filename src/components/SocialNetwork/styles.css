@@ -1,0 +1,13 @@
+ul.social-network {
+  display: flex;
+  align-items: center;
+}
+
+ul.social-network li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+ul.social-network li:last-child {
+  margin-right: 25px;
+}
