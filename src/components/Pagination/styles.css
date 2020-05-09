@@ -1,0 +1,33 @@
+div.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+div.pagination button {  
+  color: #fcfcfc;
+  font-weight: 600;
+  padding: 15px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 200ms ease-in;
+  background-color: #412507;
+  border: 1px solid #C2A37D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.pagination button:first-child {
+  margin-right: 10px;
+}
+
+div.pagination button:hover {
+  color: #412507;
+  background-color: #C2A37D;
+  border: 1px solid #412507;
+}
+
+div.pagination button:hover svg {
+  fill: #412507;
+}
