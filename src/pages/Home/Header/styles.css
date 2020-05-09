@@ -1,0 +1,20 @@
+header.welcome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('../../../assets/bg.png');
+}
+
+header.welcome h1.title {
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Pacifico', cursive;
+  color: #C2A37D;
+  text-align: center;
+}
+
+header.welcome h1.title em {
+  color: #fcfcfc;
+  font-style: normal;
+}

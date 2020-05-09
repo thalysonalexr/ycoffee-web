@@ -1,0 +1,53 @@
+nav.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #753D00;
+}
+
+nav.navbar .wrapper {
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+div.wrapper-options {
+  display: flex;
+}
+
+span.logo-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #C2A37D;
+  margin-left: 10px;
+}
+
+img.logo-image {
+  width: 44px;
+}
+
+a.wrapper-logo {
+  display: flex;
+  align-items: center;
+}
+
+a.btn-signin {
+  width: 120px;
+  color: #C2A37D;
+  background: #412507;
+  border-radius: 7px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 800;
+  transition: 0.2s ease-in;
+  padding: 10px;
+  border: 1px solid #412507;
+}
+
+a.btn-signin:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+main.feed-coffees {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #412507;
+}
+
+div.wrapper {
+  padding: 15px 15px 0;
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+}
+
+span.info-total {
+  font-weight: 600;
+  display: flex;
+  background-color: #C2A37D;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+div.card-coffees {
+  margin-top: 25px;
+}
+
+div.wrapper-message {
+  display: flex;
+  justify-content: center;
+}
+
+div.wrapper-message img {
+  width: 56px;
+  margin-left: 15px;
+}
+
+span.not-found {
+  display: flex;
+  justify-content: center;
+  color: #fcfcfc;
+  font-size: 2rem;
+  margin: 25px 0;
+  text-align: center;
+}
