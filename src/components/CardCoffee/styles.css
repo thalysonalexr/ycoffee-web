@@ -1,0 +1,159 @@
+div.card {
+  background-color: #C2A37D;
+  border-radius: 10px;
+  color: #412507;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  cursor: pointer;
+}
+
+section.about-coffee div.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+section.about-coffee div.left > div {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+section.about-coffee div.left > div:last-child {
+  margin: 0;
+}
+
+section.about-coffee div.left .title {
+  font-size: 25px;
+}
+
+section.about-coffee div.left .updated-at {
+  color: #3F3C32;
+  font-size: 14px;
+  text-align: right;
+}
+
+section.about-coffee div.left .row-1 {
+  align-items: center;
+  flex-direction: column;
+}
+
+section.about-coffee div.left .row-1 header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+section.about-coffee div.left .row-1 .description {
+  width: 100%;
+  text-align: justify;
+}
+
+section.about-coffee div.left .row-2 {
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.about-coffee div.left .row-2 > div {
+  display: flex;
+  align-items: center;
+}
+
+section.about-coffee div.left img.author-avatar {
+  width: 32px;
+  border-radius: 32px;
+}
+
+section.about-coffee div.left div.author span {
+  color: #3F3C32;
+  margin-left: 5px;
+}
+
+section.about-coffee div.left div.time-prepare span {
+  margin-left: 5px;
+  color: #3F3C32;
+}
+
+section.about-coffee div.right img {
+  width: 240px;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+section.make-coffee {
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+strong.subtitle {
+  font-size: 22px;
+}
+
+section.make-coffee div.left header img.bean-coffee {
+  width: 32px;
+}
+
+section.make-coffee div.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.make-coffee div.top header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+section.make-coffee div.top header img {
+  margin-left: 10px;
+}
+
+section.make-coffee div.top ul.ingredients {
+  margin-left: 5px;
+}
+
+section.make-coffee div.top ul.ingredients li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+section.make-coffee div.top div.right {
+  width: 240px;
+}
+
+section.make-coffee div.top div.right > div {
+  margin-bottom: 25px;
+}
+
+section.make-coffee div.top div.right .time-prepare,
+section.make-coffee div.top div.right .portions {
+  display: flex;
+  align-items: center;
+  color: #3F3C32;
+}
+
+section.make-coffee div.top div.right .time-prepare svg,
+section.make-coffee div.top div.right .portions img {
+  margin-right: 10px;
+  width: 32px;
+}
+
+section.make-coffee div.top {
+  margin-bottom: 25px;
+}
+
+section.make-coffee div.bottom header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+section.make-coffee div.bottom header img {
+  width: 42px;
+  margin-left: 10px;
+}
