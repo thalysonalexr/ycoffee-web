@@ -1,11 +1,17 @@
 import React from 'react';
 
-import './App.css';
+import Footer from './components/Footer';
+import Router from './router';
 
-export default function App() {
+import './global.css';
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <>
+      <Router />
+      <Footer />
+    </>
   );
 }
+
+export default App;
