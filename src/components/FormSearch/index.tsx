@@ -4,7 +4,7 @@ import { GrSearch } from 'react-icons/gr';
 import './styles.css';
 
 interface Callback {
-  callback: (query: string, input: string) => void
+  callback: (query: string, input: string) => void;
 }
 
 const FormSearch: React.FC<Callback> = ({ callback }) => {

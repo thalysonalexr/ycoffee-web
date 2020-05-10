@@ -5,6 +5,11 @@ main.feed-coffees {
   flex-direction: column;
   justify-content: center;
   background-color: #412507;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 32px;
+  background-blend-mode: hard-light;
+  background-image: url('../../assets/coffee-bean-smooth.svg');
 }
 
 div.wrapper {

@@ -31,3 +31,15 @@ div.pagination button:hover {
 div.pagination button:hover svg {
   fill: #412507;
 }
+
+div.pagination button:disabled {
+  cursor: default;
+  color: #fcfcfc;
+  border: 1px solid #C2A37D;
+  background-color: #412507;
+  opacity: 0.6;
+}
+
+div.pagination button:disabled svg {
+  fill: #fcfcfc;
+}

@@ -6,8 +6,8 @@ import 'moment/locale/pt-br';
 import { CoffeeModel } from '../../types/domain/Coffee';
 
 import portions from '../../assets/coffee-tea.svg';
-import coffeeBean from '../../assets/coffee-bean.svg';
 import preparation from '../../assets/preparation.svg';
+import coffeeBean from '../../assets/coffee-bean-smooth.svg';
 
 import './styles.css';
 
@@ -68,7 +68,8 @@ const CardCoffee: React.FC<{ data: CoffeeModel }> = ({ data }) => {
           height: 'auto',
           maxHeight: '600px',
           overflow: 'hidden',
-          transition: 'max-height 500ms ease-out'
+          transition: 'max-height 500ms ease-out',
+          marginTop: '25px'
         }: {
           maxHeight: 0,
           visibility: 'hidden',

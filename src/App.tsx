@@ -5,13 +5,11 @@ import Router from './router';
 
 import './global.css';
 
-const App: React.FC = () => {
-  return (
-    <>
-      <Router />
-      <Footer />
-    </>
-  );
-}
+const App: React.FC = () => (
+  <>
+    <Router />
+    <Footer />
+  </>
+);
 
 export default App;
