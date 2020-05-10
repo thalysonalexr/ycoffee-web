@@ -4,8 +4,8 @@ import Spinner from 'react-spinkit';
 import './styles.css';
 
 interface Loading {
-  loading: boolean
-  message: string 
+  loading: boolean;
+  message: string;
 }
 
 const Loading: React.FC<Loading> = ({ loading, message }) => {

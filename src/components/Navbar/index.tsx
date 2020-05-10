@@ -13,6 +13,7 @@ const Navbar: React.FC = () => {
       <div className="wrapper">
         <Link
           to={{ pathname: '/' }}
+          title="Ir para home Seu Café"
           className="wrapper-logo">
           <img
             src={logo}

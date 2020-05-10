@@ -5,14 +5,14 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
-export default function Router() {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/signin" component={SignIn} />
-        <Route path="/signup" component={SignUp} />
-      </Switch>
-    </BrowserRouter>
-  );
-}
+const Router: React.FC = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/signin" component={SignIn} />
+      <Route path="/signup" component={SignUp} />
+    </Switch>
+  </BrowserRouter>
+);
+
+export default Router;
