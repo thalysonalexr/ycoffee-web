@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import SocialNetwork from '../SocialNetwork';
 
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/icons/logo.svg';
 
 import './styles.css';
 

@@ -10,6 +10,10 @@
 
 a { text-decoration: none; }
 
+hr {
+  border: 0.5px solid rgba(102, 102, 102, 0.3);
+}
+
 ul { list-style: none; }
 
 html, body, #root {
