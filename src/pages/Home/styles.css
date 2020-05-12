@@ -9,17 +9,17 @@ main.feed-coffees {
   background-position: center;
   background-size: 32px;
   background-blend-mode: hard-light;
-  background-image: url('../../assets/coffee-bean-smooth.svg');
+  background-image: url('../../assets/icons/coffee-bean-smooth.svg');
 }
 
-div.wrapper {
+main.feed-coffees div.wrapper {
   padding: 15px 15px 0;
   width: 100%;
   max-width: 750px;
   margin: auto;
 }
 
-span.info-total {
+main.feed-coffees span.info-total {
   font-weight: 600;
   display: flex;
   background-color: #C2A37D;
@@ -28,21 +28,21 @@ span.info-total {
   margin-top: 25px;
 }
 
-div.card-coffees {
+main.feed-coffees div.card-coffees {
   margin-top: 25px;
 }
 
-div.wrapper-message {
+main.feed-coffees div.wrapper-message {
   display: flex;
   justify-content: center;
 }
 
-div.wrapper-message img {
+main.feed-coffees div.wrapper-message img {
   width: 56px;
   margin-left: 15px;
 }
 
-span.not-found {
+main.feed-coffees span.not-found {
   display: flex;
   justify-content: center;
   color: #fcfcfc;
