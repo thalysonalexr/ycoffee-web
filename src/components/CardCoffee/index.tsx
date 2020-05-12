@@ -5,9 +5,9 @@ import 'moment/locale/pt-br';
 
 import { CoffeeModel } from '../../types/domain/Coffee';
 
-import portions from '../../assets/coffee-tea.svg';
-import preparation from '../../assets/preparation.svg';
-import coffeeBean from '../../assets/coffee-bean-smooth.svg';
+import portions from '../../assets/icons/coffee-tea.svg';
+import preparation from '../../assets/icons/preparation.svg';
+import coffeeBean from '../../assets/icons/coffee-bean-bordered.svg';
 
 import './styles.css';
 
