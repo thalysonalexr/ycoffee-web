@@ -1,15 +1,15 @@
 import React from 'react';
 
-import Footer from './components/Footer';
-import Router from './router';
+import { AuthProvider } from './contexts/auth';
+
+import Routes from './routes';
 
 import './global.css';
 
 const App: React.FC = () => (
-  <>
-    <Router />
-    <Footer />
-  </>
+  <AuthProvider>
+    <Routes />
+  </AuthProvider>
 );
 
 export default App;
