@@ -1,3 +1,7 @@
+div.up.wrapper {
+  width: fit-content !important;
+}
+
 span.info-terms {
   max-width: 350px;
   margin: 0 0 25px;
@@ -6,24 +10,24 @@ span.info-terms {
 }
 
 span.info-terms a {
-  display: unset!important;
+  display: unset !important;
 }
 
-main.sign.up form button[type='submit'] {
+main.auth form button[type='submit'] {
   margin-bottom: 32px;
 }
 
-main.sign.up .wrapper-form {
+main.auth .wrapper-form {
   margin-top: 25px;
   margin-bottom: 25px;
   padding: 0 60px;
 }
 
 hr {
-  margin-bottom: 25px;
+  margin: 15px 0;
 }
 
-main.sign.up div.wrapper {
+main.auth div.wrapper {
   height: 90%;
   max-width: fit-content;
 }
