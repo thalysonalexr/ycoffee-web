@@ -1,0 +1,138 @@
+section.edit-account {
+  display: flex;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  padding: 25px;
+  width: 820px;
+}
+
+section.edit-account form {
+  margin: 0 25px;
+  width: 100%;
+}
+
+section.edit-account form .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+section.edit-account form .header .remove {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  background-color: #ff3e3a;
+  cursor: pointer;
+}
+
+section.edit-account form .header .remove > img {
+  width: 20px;
+}
+
+section.edit-account form > div.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section.edit-account form legend {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--color-brown-strong);
+  display: flex;
+  align-items: center;
+}
+
+section.edit-account form legend img {
+  width: 32px;
+  margin-left: 10px;
+}
+
+section.edit-account form label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 10px;
+  color: var(--color-brown-strong);
+}
+
+section.edit-account form div.wrapper-input {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: var(--color-grey);
+  transition: 200ms ease-in;
+  width: 100%;
+}
+
+section.edit-account form div.wrapper-input img {
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+}
+
+section.edit-account form div.wrapper-input button {
+  background: transparent;
+  cursor: pointer;
+}
+
+section.edit-account form div.wrapper-input input:not(button) {
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-grey-text);
+  background-color: var(--color-grey);
+}
+
+section.edit-account form button[type='submit'] {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: var(--color-white);
+  background-color: var(--color-brown-strong);
+  border-radius: 10px;
+  cursor: pointer;
+  animation-delay: 600ms;
+  transition: 300ms ease-in;
+  margin-left: 20px;
+}
+
+section.edit-account form button[type='submit']:hover {
+  background: var(--color-brown-medium);
+  animation: pulse 1s infinite linear backwards, slide paused;
+}
+
+section.edit-account div.upload-image {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+section.edit-account .wrapper > div.credentials {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+section.edit-account .wrapper > div.credentials .wrapper-input:first-child {
+  margin-right: 20px;
+}
+
+section.edit-account .wrapper > div.submit-form {
+  display: flex;
+  align-items: center;
+}
+
+section.edit-account .wrapper > div.submit-form span.since {
+  font-weight: 600;
+  color: var(--color-grey-text);
+  width: 100%;
+}
