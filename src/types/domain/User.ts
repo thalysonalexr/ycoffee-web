@@ -1,6 +1,6 @@
 import { Image } from './Image';
 
-export interface User {
+export interface UserModel {
   id: string;
   name: string;
   email: string;
@@ -8,9 +8,9 @@ export interface User {
   createdAt: string;
   updatedAt: string;
   avatar?: Image;
-};
+}
 
 export interface UserAuth {
-  user: User;
+  user: UserModel;
   token: string;
 }
