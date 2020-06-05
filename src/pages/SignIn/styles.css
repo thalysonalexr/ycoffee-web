@@ -1,4 +1,4 @@
-main.sign div.wrapper .wrapper-content {
+main.auth div.wrapper .wrapper-content {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -7,17 +7,17 @@ main.sign div.wrapper .wrapper-content {
 }
 
 @media all and (max-width: 1022px) {
-  main.sign div.wrapper-image img {
+  main.auth div.wrapper-image img {
     width: 250px;
   }
 }
 
 @media all and (max-width: 820px) {
-  main.sign div.wrapper-image img {
+  main.auth div.wrapper-image img {
     display: none;
   }
 
-  main.sign div.wrapper .wrapper-content {
+  main.auth div.wrapper .wrapper-content {
     justify-content: center;
   }
 }

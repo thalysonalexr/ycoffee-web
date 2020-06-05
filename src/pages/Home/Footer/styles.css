@@ -1,0 +1,45 @@
+footer.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-brown-medium);
+}
+
+footer.footer div.wrapper {
+  max-width: 960px;
+}
+
+footer.footer div.wrapper section {
+  display: flex;
+}
+
+footer.footer article.info {
+  padding: 15px;
+}
+
+footer.footer article.info h3 {
+  font-size: 24px;
+  color: var(--color-white);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+footer.footer article.info p {
+  font-size: 1rem;
+  color: var(--color-white);
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+footer.footer section.newsletter {
+  border-bottom: 1px solid rgba(252, 252, 252, 0.2);
+}
+
+footer.footer section.about {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer.footer section.about span {
+  color: var(--color-white);
+}

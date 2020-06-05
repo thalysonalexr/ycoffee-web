@@ -4,7 +4,7 @@ main.feed-coffees {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #412507;
+  background-color: var(--color-brown-strong);
   background-repeat: repeat;
   background-position: center;
   background-size: 32px;
@@ -22,14 +22,14 @@ main.feed-coffees div.wrapper {
 main.feed-coffees span.info-total {
   font-weight: 600;
   display: flex;
-  background-color: #C2A37D;
+  background-color: var(--color-brown-light);
   border-radius: 10px;
   padding: 15px;
   margin-top: 25px;
 }
 
 main.feed-coffees div.card-coffees {
-  margin-top: 25px;
+  margin: 25px 0;
 }
 
 main.feed-coffees div.wrapper-message {
@@ -45,7 +45,7 @@ main.feed-coffees div.wrapper-message img {
 main.feed-coffees span.not-found {
   display: flex;
   justify-content: center;
-  color: #fcfcfc;
+  color: var(--color-white);
   font-size: 2rem;
   margin: 25px 0;
   text-align: center;
