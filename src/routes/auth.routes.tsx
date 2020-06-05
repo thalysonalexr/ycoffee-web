@@ -1,15 +1,15 @@
-import { RouteProps, RedirectProps } from 'react-router-dom';
+import React from 'react';
+import { Route, withRouter, Redirect } from 'react-router-dom';
 
 import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
 
-export const AuthRoutes: RouteProps[] = [
-  { path: '/signin', component: SignIn },
-  { path: '/signup', component: SignUp },
-];
+const AuthRoutes: React.FC = (props) => (
+  <>
+    <Route path="/auth/signin" exact component={SignIn} />
+    <Route path="/auth/signup" exact component={SignUp} />
+    <Redirect from="/auth" exact to="/auth/signin" />
+  </>
+);
 
-export const AuthRedirects: RedirectProps[] = [
-  { from: '/dashboard', to: '/signin' }
-];
-
-export default AuthRoutes;
+export default withRouter(AuthRoutes);
