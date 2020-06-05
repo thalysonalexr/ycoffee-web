@@ -36,10 +36,12 @@ Parte desse estudo também visa a prototipação das aplicações com Figma. [Ve
 
 ## :rocket: Tecnologias
 
-- React Native
-- React Navigation
+- React
 - TypeScript
-- Expo
+- Axios
+- React Router Dom
+- React Dropzone
+  ....
 
 ---
 
