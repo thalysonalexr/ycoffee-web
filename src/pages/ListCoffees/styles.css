@@ -1,0 +1,104 @@
+section.list-coffees > table.list-coffees {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  padding: 25px;
+  width: 100%;
+  margin: 25px 0;
+  border-spacing: 0;
+}
+
+section.list-coffees > table.list-coffees thead {
+  font-size: 22px;
+  color: var(--color-brown-strong);
+}
+
+section.list-coffees > table.list-coffees th {
+  padding-bottom: 25px;
+}
+
+section.list-coffees > table.list-coffees th img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+section.list-coffees > table.list-coffees td.index {
+  font-weight: 600;
+}
+
+section.list-coffees > table.list-coffees .index,
+section.list-coffees > table.list-coffees .updatedat,
+section.list-coffees > table.list-coffees .actions {
+  text-align: center;
+}
+
+section.list-coffees > table.list-coffees .type {
+  text-align: left;
+}
+
+section.list-coffees > table.list-coffees td {
+  padding: 0.75rem;
+  font-weight: 400;
+  color: var(--color-grey-text);
+}
+
+section.list-coffees > table.list-coffees td {
+  border-top: 1px solid var(--color-grey);
+}
+
+section.list-coffees > table.list-coffees td.actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.list-coffees > table.list-coffees td.actions * {
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+section.list-coffees > table.list-coffees td.actions *:hover {
+  transform: scale(1.2);
+}
+
+section.list-coffees > table.list-coffees td.actions img {
+  width: 22px;
+  height: 22px;
+}
+
+section.list-coffees > table.list-coffees td.actions button {
+  background: transparent;
+}
+
+section.list-coffees > div.wrapper-message {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+section.list-coffees > div.wrapper-message img {
+  width: 32px;
+  margin-left: 10px;
+}
+
+section.list-coffees > div.wrapper-message .not-found {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.list-coffees > div.wrapper-message .not-found p {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-bottom: 10px;
+}
