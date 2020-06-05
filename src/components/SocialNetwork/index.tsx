@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  FaTwitter,
-  FaPinterest,
-  FaInstagram,
-} from 'react-icons/fa';
+import { FaTwitter, FaPinterest, FaInstagram } from 'react-icons/fa';
 
 import './styles.css';
 
@@ -14,7 +10,8 @@ const SocialNetwork: React.FC = () => {
         <a
           rel="noopener noreferrer"
           title="Seguir no Pinterest"
-          href="https://br.pinterest.com/">
+          href="https://br.pinterest.com/"
+        >
           <FaPinterest size={22} color="#fcfcfc" />
         </a>
       </li>
@@ -22,7 +19,8 @@ const SocialNetwork: React.FC = () => {
         <a
           rel="noopener noreferrer"
           title="Seguir no Instagram"
-          href="https://www.instagram.com/">
+          href="https://www.instagram.com/"
+        >
           <FaInstagram size={22} color="#fcfcfc" />
         </a>
       </li>
@@ -30,7 +28,8 @@ const SocialNetwork: React.FC = () => {
         <a
           rel="noopener noreferrer"
           title="Seguir no Twitter"
-          href="https://twitter.com/">
+          href="https://twitter.com/"
+        >
           <FaTwitter size={22} color="#fcfcfc" />
         </a>
       </li>

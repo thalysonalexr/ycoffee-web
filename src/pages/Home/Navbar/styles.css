@@ -1,0 +1,65 @@
+nav.navbar.home {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-brown-medium);
+}
+
+nav.navbar.home > .wrapper {
+  width: 100%;
+  max-width: 750px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+nav.navbar.home > .wrapper div.wrapper-options {
+  display: flex;
+}
+
+nav.navbar.home > .wrapper span.logo-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--color-brown-light);
+  margin-left: 10px;
+}
+
+nav.navbar.home > .wrapper img.logo-image {
+  width: 44px;
+}
+
+nav.navbar.home > .wrapper a.wrapper-logo {
+  display: flex;
+  align-items: center;
+}
+
+nav.navbar.home > .wrapper a.btn-signin {
+  width: 120px;
+  color: var(--color-brown-light);
+  background: var(--color-brown-strong);
+  border-radius: 7px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 800;
+  transition: 0.2s ease-in;
+  padding: 10px;
+  border: 1px solid var(--color-brown-strong);
+}
+
+nav.navbar.home > .wrapper a.btn-signin:hover {
+  opacity: 0.8;
+}
+
+nav.navbar.home > .wrapper a.user-logged {
+  display: flex;
+  align-items: center;
+}
+
+nav.navbar.home > .wrapper a.user-logged img {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(252, 252, 252, 0.5);
+  border-radius: 32px;
+}

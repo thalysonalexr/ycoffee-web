@@ -1,0 +1,174 @@
+main.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url('../../assets/img/bg-sign.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+main.auth > div.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  height: 85%;
+  max-height: 700px;
+  width: 100%;
+  max-width: 960px;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  animation-name: fade;
+  animation-delay: 300ms;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+
+main.auth > div.wrapper .wrapper-nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+main.auth > div.wrapper span.error-message {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #f22b29;
+  font-weight: 400;
+  animation-name: slide;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+}
+
+main.auth form {
+  display: flex;
+  flex-direction: column;
+}
+
+main.auth form legend {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+main.auth form legend strong {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--color-brown-strong);
+  text-align: center;
+  width: 100%;
+}
+
+main.auth form .wrapper-input {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 350px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: var(--color-grey);
+  transition: 200ms ease-in;
+}
+
+main.auth form .wrapper-input,
+main.auth form button[type='submit'] {
+  animation-name: slide;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+}
+
+main.auth form .wrapper-input:nth-child(2) {
+  animation-delay: 150ms;
+}
+
+main.auth form .wrapper-input:nth-child(3) {
+  animation-delay: 300ms;
+}
+
+main.auth form .wrapper-input:nth-child(4) {
+  animation-delay: 450ms;
+}
+
+main.auth form .wrapper-input input:not(button) {
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-grey-text);
+  background-color: var(--color-grey);
+}
+
+main.auth form .wrapper-input label {
+  display: flex;
+  align-items: center;
+}
+
+main.auth form .wrapper-input label img {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+}
+
+main.auth form button[type='submit'] {
+  font-size: 22px;
+  font-weight: 800;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: var(--color-white);
+  background-color: var(--color-brown-strong);
+  border-radius: 10px;
+  cursor: pointer;
+  animation-delay: 600ms;
+  transition: 300ms ease-in;
+}
+
+main.auth .wrapper a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: var(--color-brown-strong);
+}
+
+main.auth .wrapper a:hover {
+  text-decoration: underline;
+}
+
+main.auth form button[type='submit']:hover {
+  background: var(--color-brown-medium);
+  animation: pulse 1s infinite linear backwards, slide paused;
+}
+
+@media all and (max-width: 1022px) {
+  main.auth > div.wrapper {
+    max-width: 760px;
+  }
+}
+
+@media all and (max-width: 820px) {
+  main.auth > div.wrapper {
+    max-width: 560px;
+  }
+}
+
+@media all and (max-width: 660px) {
+  main.auth {
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 440px) {
+  main.auth .wrapper-form {
+    width: 100%;
+  }
+
+  main.sign form .wrapper-input {
+    width: 100%;
+  }
+}

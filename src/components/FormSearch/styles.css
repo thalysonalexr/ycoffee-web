@@ -2,18 +2,18 @@ form.form-search {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #C2A37D;
+  background-color: var(--color-brown-light);
   border-radius: 10px;
   padding: 5px;
 }
 
 form.form-search select.query-search {
-  color: #fcfcfc;
+  color: var(--color-white);
   font-size: 1rem;
   text-align: center;
   text-align-last: center;
   border-radius: 7px 0px 0px 7px;
-  background-color: #412507;
+  background-color: var(--color-brown-strong);
   width: 100px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -32,14 +32,16 @@ input.ipt-search {
   padding: 10px;
   font-size: 1rem;
   font-weight: 700;
-  color: #412507;
+  color: var(--color-brown-strong);
 }
 
-button.send-search span { display: none; }
+button.send-search span {
+  display: none;
+}
 
 button.send-search {
   width: 56px;
   cursor: pointer;
   border-radius: 0px 7px 7px 0px;
-  background-color: #fcfcfc;
+  background-color: var(--color-white);
 }

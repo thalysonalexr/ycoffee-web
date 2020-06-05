@@ -3,16 +3,16 @@ div.pagination {
   justify-content: center;
 }
 
-div.pagination button {  
+div.pagination button {
   color: #fcfcfc;
   font-weight: 600;
   padding: 15px;
   border-radius: 7px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   cursor: pointer;
   transition: 200ms ease-in;
-  background-color: #412507;
-  border: 1px solid #C2A37D;
+  background-color: var(--color-brown-strong);
+  border: 1px solid var(--color-brown-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,23 +23,23 @@ div.pagination button:first-child {
 }
 
 div.pagination button:hover {
-  color: #412507;
-  background-color: #C2A37D;
-  border: 1px solid #412507;
+  color: var(--color-brown-strong);
+  background-color: var(--color-brown-light);
+  border: 1px solid var(--color-brown-strong);
 }
 
 div.pagination button:hover svg {
-  fill: #412507;
+  fill: var(--color-brown-strong);
 }
 
 div.pagination button:disabled {
   cursor: default;
-  color: #fcfcfc;
-  border: 1px solid #C2A37D;
-  background-color: #412507;
+  color: var(--color-white);
+  border: 1px solid var(--color-brown-light);
+  background-color: var(--color-brown-strong);
   opacity: 0.6;
 }
 
 div.pagination button:disabled svg {
-  fill: #fcfcfc;
+  fill: var(--color-white);
 }

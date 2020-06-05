@@ -1,0 +1,39 @@
+div.upload-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+div.upload-wrapper div.preview {
+  width: 52px;
+  height: 52px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-right: 10px;
+}
+
+div.upload-wrapper > div {
+  display: flex;
+  align-items: center;
+}
+
+div.upload-wrapper .upload-info {
+  display: flex;
+  flex-direction: column;
+  height: 52px;
+  justify-content: center;
+}
+
+div.upload-wrapper .upload-info strong {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: var(--color-grey-text);
+}
+
+div.upload-wrapper .upload-info > *:not(strong) {
+  font-size: 0.8rem;
+}

@@ -1,0 +1,30 @@
+div.wrapper.upload.normal {
+  border-color: var(--color-brown-medium);
+  color: var(--color-grey-text);
+}
+
+div.wrapper.upload.active {
+  border-color: var(--color-blue);
+  color: var(--color-blue);
+}
+
+div.wrapper.upload.reject {
+  border-color: var(--color-red);
+  color: var(--color-red);
+}
+
+div.wrapper.upload {
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px dashed var(--color-brown-medium);
+}
+
+div.wrapper.upload img {
+  width: 20px;
+  margin-left: 10px;
+}

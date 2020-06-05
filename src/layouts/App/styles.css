@@ -1,0 +1,15 @@
+main.app {
+  height: 100%;
+  display: flex;
+  background-color: var(--color-brown-strong);
+}
+
+main.app > .wrapper-app {
+  width: 100%;
+  overflow: scroll;
+}
+
+main.app > .wrapper-app > .wrapper-routes {
+  height: 100%;
+  padding: 25px;
+}

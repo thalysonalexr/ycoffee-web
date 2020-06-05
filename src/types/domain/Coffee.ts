@@ -12,10 +12,16 @@ export interface CoffeeModel {
   description: string;
   ingredients: string[];
   preparation: string;
-  author: Author;
   updatedAt: string;
   createdAt: string;
   timePrepare?: number;
   portions?: number;
   image?: Image;
+  author?: Author;
+}
+
+export interface PaginationCoffees {
+  coffees: CoffeeModel[];
+  pages: number;
+  total: number;
 }
