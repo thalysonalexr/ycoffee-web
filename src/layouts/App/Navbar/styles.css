@@ -1,0 +1,62 @@
+nav.navbar.dashboard {
+  width: 100%;
+  background-color: var(--color-brown-medium);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.navbar.dashboard > .wrapper {
+  display: flex;
+  width: fit-content;
+}
+
+nav.navbar.dashboard > .wrapper .link {
+  background: transparent;
+  color: var(--color-white);
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 120px;
+  height: 74px;
+  transition: 200ms ease-in-out;
+}
+
+nav.navbar.dashboard > .wrapper .link:hover {
+  background-color: var(--color-brown-strong);
+}
+
+nav.navbar.dashboard > .wrapper img {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+nav.navbar.dashboard .alert {
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+  border-radius: 10px;
+  margin: 15px 15px 15px 0;
+  padding: 10px;
+}
+
+nav.navbar.dashboard .hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+nav.navbar.dashboard .alert {
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+nav.navbar.dashboard .alert.success {
+  background-color: var(--color-green);
+}
+
+nav.navbar.dashboard .alert.danger {
+  background-color: var(--color-red);
+}
